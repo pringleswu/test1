@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+.lesson {
+  flex: none;
+  width: 280px;
+  margin: 10px;
+  background-color: #ffcccc;
+  text-align: center;
+}
+@media (max-width: 1250px) {
+  .list {
+    flex-wrap: wrap;
+  }
+  .lesson {
+    width: 45%;
+  }
+}
+@media (max-width: 500px) {
+  .list {
+    flex-wrap: wrap;
+  }
+  .lesson {
+    width: 90%;
+  }
+}
